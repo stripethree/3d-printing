@@ -11,5 +11,6 @@
   - [OctoDash](https://github.com/UnchartedBull/OctoDash)
   - [Raspberry Pi 4B housing for Miuzei 800x480 4" Touchscreen for CR-6 SE](https://www.thingiverse.com/thing:4663911) _Thingiverse_
 - [Marlin CommunityFireware](https://github.com/CR6Community/Marlin) _GitHub_
+- [Printer Improvements](https://www.instructables.com/CR-6-SE-3D-Printer-Improvements/) 
 
 
