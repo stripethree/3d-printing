@@ -1,5 +1,12 @@
 # Adventures in 3D Printing
 
+## Printer
+
+[Creality CR-6 SE](https://www.creality.com/goods-detail/cr-6-se-3d-printer)
+
+### Updates
+- Firmware: [Marlin Community](https://github.com/CR6Community/Marlin) [v2.0.7.1 release 3](]https://github.com/CR6Community/Marlin/releases/tag/v2.0.7.1-cr6-community-release-3)
+
 ### Resources
 
 - [Creaity CR-6 SE modifications](https://www.thingiverse.com/pandataco/collections/cr-6-se) _Thingiverse_
