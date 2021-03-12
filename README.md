@@ -4,6 +4,8 @@
 
 [Creality CR-6 SE](https://www.creality.com/goods-detail/cr-6-se-3d-printer)
 
+## Printer Modifications
+
 ## OctoPrint &amp; OctoDash
 
 _Hardware_
@@ -11,6 +13,9 @@ _Hardware_
 - [Miuzel 4" 800x480 Touchscreen](https://www.amazon.com/gp/product/B07XBVF1C9/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 - [Raspberry Pi USB-C Power Supply](https://www.amazon.com/gp/product/B07W93C4Z9/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1)
 - [Raspberry Pi Camera V2](https://www.amazon.com/gp/product/B01ER2SKFS/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) with [2 Meter Flex Cable](https://www.amazon.com/gp/product/B00XW2NCKS/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1)
+
+_Printed Parts_
+- [Raspberry Pi 4B housing for Miuzei 800x480 4" Touchscreen for CR-6 SE] (https://www.thingiverse.com/thing:4663911)
 
 _Software_
 - [OctoPrint](https://octoprint.org/)
@@ -58,14 +63,16 @@ Additionally, based on [this comment](https://www.raspberrypi.org/forums/viewtop
 
 After these changes, the Raspberry Pi started up with OctoPrint and OctoDash in landscape format. Hooray!
 
+## Printer Accessories
+
+- [Printer Improvements](https://www.instructables.com/CR-6-SE-3D-Printer-Improvements/) 
+- [Creaity CR-6 SE modifications](https://www.thingiverse.com/pandataco/collections/cr-6-se) _Thingiverse_
+
 ### Updates
 - *TODO* - Firmware: [Marlin Community](https://github.com/CR6Community/Marlin) [v2.0.7.1 release 3](]https://github.com/CR6Community/Marlin/releases/tag/v2.0.7.1-cr6-community-release-3)
 
-### Resources
-
-- [Creaity CR-6 SE modifications](https://www.thingiverse.com/pandataco/collections/cr-6-se) _Thingiverse_
+### Resource Links
 - [Creality CR-6 post-unboxing checklist](https://www.reddit.com/r/CR6/comments/ibwvvf/cr6_postunboxing_checklist/) _Reddit_
 - [Marlin CommunityFireware](https://github.com/CR6Community/Marlin) _GitHub_
-- [Printer Improvements](https://www.instructables.com/CR-6-SE-3D-Printer-Improvements/) 
 
 
