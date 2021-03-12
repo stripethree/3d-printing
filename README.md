@@ -52,12 +52,14 @@ Fatal server error:
 [    40.510] (EE) 
 ```
 
-To resolve this, `xserver-xorg-video-fbturbo` was manually installed following the guidance of  [this Stackoverflow question](https://raspberrypi.stackexchange.com/questions/100169/xorg-not-working-after-upgrading-to-buster). Packages were upgrade based on the information in [this comment](https://raspberrypi.stackexchange.com/a/104524) and then the module was installed based on the command from [this comment](https://raspberrypi.stackexchange.com/a/101085).
+To resolve this, `xserver-xorg-video-fbturbo` was manually installed following the guidance of  [this Stackoverflow question](https://raspberrypi.stackexchange.com/questions/100169/xorg-not-working-after-upgrading-to-buster). Packages were upgraded based on the information in [this comment](https://raspberrypi.stackexchange.com/a/104524) and then the module was installed based on the command from [this comment](https://raspberrypi.stackexchange.com/a/101085). No pacages needed to be ugraded as this is also a part of the _Install Octoprint - In 5 Minutes - Raspberry Pi_ however it was worth checking since other software had been installed.
 
 Additionally, based on [this comment](https://www.raspberrypi.org/forums/viewtopic.php?p=1685758&sid=e009eb13cab9b66145f1bc1dbea6f764#p1685758) from the Raspberry Pi forums, the resolution was manually set to 480x800 via `raspi-config`.
 
+After these changes, the Raspberry Pi started up with OctoPrint and OctoDash in landscape format. Hooray!
+
 ### Updates
-- Firmware: [Marlin Community](https://github.com/CR6Community/Marlin) [v2.0.7.1 release 3](]https://github.com/CR6Community/Marlin/releases/tag/v2.0.7.1-cr6-community-release-3)
+- *TODO* - Firmware: [Marlin Community](https://github.com/CR6Community/Marlin) [v2.0.7.1 release 3](]https://github.com/CR6Community/Marlin/releases/tag/v2.0.7.1-cr6-community-release-3)
 
 ### Resources
 
