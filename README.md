@@ -71,6 +71,17 @@ After these changes, the Raspberry Pi started up with OctoPrint and OctoDash in 
 ### Updates
 - *TODO* - Firmware: [Marlin Community](https://github.com/CR6Community/Marlin) [v2.0.7.1 release 3](]https://github.com/CR6Community/Marlin/releases/tag/v2.0.7.1-cr6-community-release-3)
 
+When formatting the micro SD card for the display firmware updates, the card must be no larger than 4GB and formatted FAT32 with a block size of 4096.
+```
+> diskutil unmountDisk /dev/disk2
+> sudo newfs_msdos -F 32 -v CREALITY -b 4096 /dev/disk2s1
+```
+
+Several times during some trial and error I had micro SD cards become unreadable by OSX. This rendered them completely unsuable, even to Disk Utility. Erasing the disk at the command line fixed this.
+```
+diskutil eraseDisk FAT32 CREALITY MBRFormat disk2
+```
+
 ### Resource Links
 - [Creality CR-6 post-unboxing checklist](https://www.reddit.com/r/CR6/comments/ibwvvf/cr6_postunboxing_checklist/) _Reddit_
 - [Marlin CommunityFireware](https://github.com/CR6Community/Marlin) _GitHub_
