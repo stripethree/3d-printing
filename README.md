@@ -46,7 +46,7 @@ cd LCD-show/
 sudo ./MHS40-show
 ```
 
-After installing the driver, there was another issue to resolve, which was that the screen was not detected. Xorg was also raised a fatal error around a dependency.
+After installing the driver, there was another issue to resolve, which was that the screen was not detected. Xorg also raised a fatal error around a dependency.
 ```
 [    40.507] (WW) Warning, couldn't open module fbturbo
 [    40.507] (EE) Failed to load module "fbturbo" (module does not exist, 0)
@@ -57,7 +57,7 @@ Fatal server error:
 [    40.510] (EE) 
 ```
 
-To resolve this, `xserver-xorg-video-fbturbo` was manually installed following the guidance of  [this Stackoverflow question](https://raspberrypi.stackexchange.com/questions/100169/xorg-not-working-after-upgrading-to-buster). Packages were upgraded based on the information in [this comment](https://raspberrypi.stackexchange.com/a/104524) and then the module was installed based on the command from [this comment](https://raspberrypi.stackexchange.com/a/101085). No pacages needed to be ugraded as this is also a part of the _Install Octoprint - In 5 Minutes - Raspberry Pi_ however it was worth checking since other software had been installed.
+To resolve this, `xserver-xorg-video-fbturbo` was manually installed following the guidance of [this Stackoverflow question](https://raspberrypi.stackexchange.com/questions/100169/xorg-not-working-after-upgrading-to-buster). Packages were upgraded based on the information in [this comment](https://raspberrypi.stackexchange.com/a/104524) and then the module was installed based on the command from [this comment](https://raspberrypi.stackexchange.com/a/101085). No packages needed to be ugraded as this is also a part of the _Install Octoprint - In 5 Minutes - Raspberry Pi_ however it was worth checking since other software had been installed.
 
 Additionally, based on [this comment](https://www.raspberrypi.org/forums/viewtopic.php?p=1685758&sid=e009eb13cab9b66145f1bc1dbea6f764#p1685758) from the Raspberry Pi forums, the resolution was manually set to 480x800 via `raspi-config`.
 
