@@ -15,7 +15,7 @@ _Hardware_
 - [Raspberry Pi Camera V2](https://www.amazon.com/gp/product/B01ER2SKFS/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) with [2 Meter Flex Cable](https://www.amazon.com/gp/product/B00XW2NCKS/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1)
 
 _Printed Parts_
-- [Raspberry Pi 4B housing for Miuzei 800x480 4" Touchscreen for CR-6 SE] (https://www.thingiverse.com/thing:4663911)
+- [Raspberry Pi 4B housing for Miuzei 800x480 4" Touchscreen for CR-6 SE](https://www.thingiverse.com/thing:4663911)
 
 _Software_
 - [OctoPrint](https://octoprint.org/)
