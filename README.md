@@ -37,7 +37,7 @@ _Commands for formatting the the SD card on an OSX machine_
 
 _Touchscreen Drivers_
 
-Installing drivers for the touchscreen involved following _Step 2_ and _Step 3_ of the [`LCD_Show`](https://github.com/goodtft/LCD-show#2-step2-clone-my-repo-onto-your-pi). The driver used was _4.0" HDMI Display(MPI4008)_. After opening an SSH connect to the Raspberry Pi:
+Installing drivers for the touchscreen involved following _Step 2_ and _Step 3_ of the [`LCD_Show` README](https://github.com/goodtft/LCD-show#2-step2-clone-my-repo-onto-your-pi). The driver used was _4.0" HDMI Display(MPI4008)_. After opening an SSH connect to the Raspberry Pi:
 ```
 sudo rm -rf LCD-show
 git clone https://github.com/goodtft/LCD-show.git
