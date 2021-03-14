@@ -4,7 +4,11 @@
 
 [Creality CR-6 SE](https://www.creality.com/goods-detail/cr-6-se-3d-printer)
 
-## Printer Modifications
+## Printer Upgrades & Modifications
+- [Upgraded Creality All Metal MK-8 Extruder](https://www.amazon.com/gp/product/B07WHYBVJ5/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1), direct fit/no modifications needed
+- [Micro SD Card Extension Cable](https://www.amazon.com/gp/product/B07WWVBK8V/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1), added this to the CR-6 SE touchcreen to eliminate the need to disassemble it for any firmware updates
+- [Capricorn Bowden PTFE Tubing](https://www.amazon.com/gp/product/B079P92HN9/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+- [Printer Improvements](https://www.instructables.com/CR-6-SE-3D-Printer-Improvements/), printed and installed the parts for the filament resposition and the new filament sensor  housing
 
 ## OctoPrint &amp; OctoDash
 
@@ -16,6 +20,7 @@ _Hardware_
 
 _Printed Parts_
 - [Raspberry Pi 4B housing for Miuzei 800x480 4" Touchscreen for CR-6 SE](https://www.thingiverse.com/thing:4663911)
+- [Raspberry Pi Camera Case](https://www.thingiverse.com/thing:92208)
 
 _Software_
 - [OctoPrint](https://octoprint.org/)
@@ -82,8 +87,7 @@ Several times during some trial and error I had micro SD cards become unreadable
 diskutil eraseDisk FAT32 CREALITY MBRFormat disk2
 ```
 
-### Resource Links
+### More Links
+- [Thingiverse CR-6 SE Parts Collection](https://www.thingiverse.com/pandataco/collections/cr-6-se)
 - [Creality CR-6 post-unboxing checklist](https://www.reddit.com/r/CR6/comments/ibwvvf/cr6_postunboxing_checklist/) _Reddit_
 - [Marlin CommunityFireware](https://github.com/CR6Community/Marlin) _GitHub_
-
-
